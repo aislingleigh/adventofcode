@@ -14,7 +14,13 @@
     "skipLibCheck": true,
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
-    "paths": {}
+    "paths": {
+      "@aoc/twenty-one/one": ["libs/twenty-one/one/src/index.ts"],
+      "@aoc/twenty-one/three": ["libs/twenty-one/three/src/index.ts"],
+      "@aoc/twenty-one/two": ["libs/twenty-one/two/src/index.ts"],
+      "@aoc/twenty/one": ["libs/twenty/one/src/index.ts"],
+      "@aoc/util": ["libs/util/src/index.ts"]
+    }
   },
   "exclude": ["node_modules", "tmp"]
 }

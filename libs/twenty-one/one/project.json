@@ -1,0 +1,23 @@
+{
+  "root": "libs/twenty-one/one",
+  "sourceRoot": "libs/twenty-one/one/src",
+  "projectType": "library",
+  "targets": {
+    "lint": {
+      "executor": "@nrwl/linter:eslint",
+      "outputs": ["{options.outputFile}"],
+      "options": {
+        "lintFilePatterns": ["libs/twenty-one/one/**/*.ts"]
+      }
+    },
+    "test": {
+      "executor": "@nrwl/jest:jest",
+      "outputs": ["coverage/libs/twenty-one/one"],
+      "options": {
+        "jestConfig": "libs/twenty-one/one/jest.config.js",
+        "passWithNoTests": true
+      }
+    }
+  },
+  "tags": []
+}

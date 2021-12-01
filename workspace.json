@@ -1,4 +1,10 @@
 {
   "version": 2,
-  "projects": {}
+  "projects": {
+    "twenty-one": "libs/twenty/one",
+    "twenty-one-one": "libs/twenty-one/one",
+    "twenty-one-three": "libs/twenty-one/three",
+    "twenty-one-two": "libs/twenty-one/two",
+    "util": "libs/util"
+  }
 }
