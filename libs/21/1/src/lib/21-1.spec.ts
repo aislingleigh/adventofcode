@@ -7,8 +7,8 @@ describe('211', () => {
     console.log(`PART ONE ANSWER: ${partOne(<number[]>probInput)}`);
   });
 
-  it.only('PART TWO', () => {
-    expect(partTwo(<number[]>testInput)).toEqual(5);
-    console.log(`PART TWO ANSWER: ${partTwo(<number[]>probInput)}`);
-  });
+  // it.only('PART TWO', () => {
+  //   expect(partTwo(<number[]>testInput)).toEqual(5);
+  //   console.log(`PART TWO ANSWER: ${partTwo(<number[]>probInput)}`);
+  // });
 });
