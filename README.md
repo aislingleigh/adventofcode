@@ -26,6 +26,10 @@ Days
 - 2
 - ....
 
+This command will console log the solutions to the problems while testing the sample data.
+
+99% of the time, if your tests pass these answers will be correct. Just watch out for those extremely large numbers in the problem data set....:)
+
 ## TO WATCH TESTS WHILE WORKING SOLUTION
 
 `nx test {year}-{day} --watch`
