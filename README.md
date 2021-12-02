@@ -34,7 +34,7 @@ This command will console log the solutions to the problems while testing the sa
 
 `nx test {year}-{day} --watch`
 
-## GENERATE NEW FILE DAYS
+## GENERATE NEW DAYS
 
 `npx nx workspace-generator Day --day={day} --year={year}`
 
