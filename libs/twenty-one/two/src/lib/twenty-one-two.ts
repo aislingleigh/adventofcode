@@ -1,3 +1,0 @@
-export function partOne(input) {}
-
-export function partTwo(input) {}

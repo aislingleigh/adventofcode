@@ -16,17 +16,25 @@ Uses nx.dev mono repo
 
 Years
 
-- twenty-one
+- 20
+- 21
+- ...
 
 Days
 
-- one
-- two
+- 1
+- 2
 - ....
 
 ## TO WATCH TESTS WHILE WORKING SOLUTION
 
 `nx test {year}-{day} --watch`
+
+## GENERATE NEW FILE DAYS
+
+`npx nx workspace-generator Day --day={day} --year={year}`
+
+This command will scaffold out another library for that day's event, including blank input.txt files, inputs, tests, and functions.
 
 ## UTILS
 
