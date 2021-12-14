@@ -11,7 +11,7 @@ export function parseArrayFromText(
   path: string,
   delimiters: string[],
   convertToNum: boolean
-): string[] | number[] {
+): string[] | number[] | string[][] | number[][] {
   const file = fs.readFileSync(path).toString();
   let result: any[] = file.split(delimiters[0]);
   delimiters = delimiters.slice(1);

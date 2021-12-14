@@ -1,10 +1,10 @@
-import { partOne, partTwo } from './21-2';
+import { partOne, partTwo } from './21-3';
 import { testInput, probInput } from './inputs';
 
-describe('212', () => {
+describe('213', () => {
   it.only('PART ONE', () => {
-    expect(partOne(<string[][]>testInput)).toEqual(150);
-    console.log(`PART ONE ANSWER: ${partOne(<string[][]>probInput)}`);
+    expect(partOne(testInput)).toEqual();
+    console.log(`PART ONE ANSWER: ${partOne(probInput)}`);
   });
 
   //it.only('PART TWO', () => {
